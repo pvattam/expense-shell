@@ -1,5 +1,5 @@
 log_file="/tmp/expense.log"
-color= "\e[33m"
+color="\e[33m"
 
 if [ -z "$1" ]; then
   echo Password input missing
