@@ -1,5 +1,5 @@
 log_file= "/tmp/expense.log"
-color= "\e[36m"
+color= "\e[33m"
 
 echo -e "${color} Disable Mysql default version \e[0m"
 dnf module disable mysql -y &>>log_file
