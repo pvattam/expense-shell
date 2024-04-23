@@ -20,7 +20,7 @@ dnf install nodejs -y &>>log_file
 status_check
 
 echo -e "${color} Copy backend service file \e[0m"
-cp backend.service /etc/systemd/system/backend.service &>>log_file
+cp catalogue.service /etc/systemd/system/catalogue.service &>>log_file
 status_check
 
 
